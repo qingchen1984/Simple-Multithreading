@@ -25,6 +25,9 @@
 
 #include <Windows.h>
 
+#include <stdlib.h>  
+#include <stdio.h> 
+
 // Setup new thread to run the given method asynchronously
 Thread Thread_Start( AsyncFunction function, void* args, enum ThreadResourceMode mode )
 {

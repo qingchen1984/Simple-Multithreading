@@ -24,6 +24,7 @@
 #ifdef WIN32
 
 #include <Windows.h>
+#include <stdlib.h>
 
 // Request new unique mutex for using in thread syncronization
 TLock TLock_Create()
